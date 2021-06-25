@@ -5,4 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JenkinsMaven</name>
   <description>For practicing maven with Jenkins</description>
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.junit/junit5-engine -->
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
 </project>
