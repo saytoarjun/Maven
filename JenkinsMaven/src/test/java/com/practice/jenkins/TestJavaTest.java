@@ -9,6 +9,8 @@ public class TestJavaTest {
 	@Test
 	public void testAdd() {
 		TestJava tj = new TestJava();
+		String orphanVar1 = null;
+		System.out.println("added sysout for sonarqube check");
 		assertEquals(20, tj.addNumbers(10, 10));
 	}
 
